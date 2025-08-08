@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+
+
+  <title>Vinícius A. Sampaio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="body">
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-light nav-top">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="https://www.instagram.com/vini_ipanema/" target="_blank">
+          <img src="images/logo.png" class="logo-img" alt="Logo" />
+        </a>
+        <form class="d-flex">
+          <input class="form-control me-2 search-input" type="search" placeholder="Pesquisar" aria-label="Search" />
+        </form>
+        <div class="nav-icons">
+          <i class="bi bi-house-door icons"></i>
+          <i class="bi bi-inbox-fill icons"></i>
+          <i class="bi bi-heart icons"></i>
+          <i class="bi bi-gear-wide icons"></i>
+          
+          <a href="https://github.com/vsampaioo" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/vinicius-almeida-sampaio/" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-linkedin"></i>
+</a>
+
+          <img class="img-nav" src="images/foto-instagram.jpg" alt="Foto perfil" />
+          <label class="switch ms-3" aria-label="Alternar modo dark">
+  <input type="checkbox" id="toggle-dark" />
+  <span class="slider round"></span>
+</label>
+
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <section class="container">
+    <div class="row">
+      <div class="col-0 col-md-2"></div>
+      <div class="col-12 col-md-8">
+        <!-- Profile -->
+        <div class="row pt-4">
+          <div class="col-3">
+            <img class="img-profile" src="images/foto-instagram.jpg" alt="Foto perfil grande" />
+          </div>
+          <div class="col-7">
+            <div class="row align-items-center mb-3">
+              <div class="col-auto">
+                <h2 class="username">vini_ipanema</h2>
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn btn-outline-secondary button-edit">Editar perfil</button>
+              </div>
+            </div>
+            <div class="row text-center text-md-start">
+              <div class="col-4">
+                <p class="profile-datas"><strong>9</strong> publicações</p>
+              </div>
+              <div class="col-4">
+                <p class="profile-datas"><strong>11,2 mi</strong> seguidores</p>
+              </div>
+              <div class="col-4">
+                <p class="profile-datas"><strong>1</strong> seguindo</p>
+              </div>
+            </div>
+            <h1 class="name mt-2">Vinícius A. Sampaio</h1>
+            <p class="profile-desc">
+              Desenvolvedor Back-End | Go (Golang) | Python | DevOps | Microsserviços
+            </p>
+          </div>
+        </div>
+
+        <!-- Stories -->
+        <div class="row justify-content-start mt-4">
+          <div class="col-2 story-item">
+            <img src="images/story1.png" class="story-img" alt="Vasco" />
+            <div class="stories">Vasco</div>
+          </div>
+          <div class="col-2 story-item">
+            <img src="images/story2.png" class="story-img" alt="Viagens" />
+            <div class="stories">Viagens</div>
+          </div>
+          <div class="col-2 story-item">
+            <img src="images/story3.png" class="story-img" alt="Projetos" />
+            <div class="stories">Projetos</div>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="section-divider" />
+
+        <!-- Nav Tabs -->
+        <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+              > <i class="bi bi-grid-3x3"></i> PUBLICAÇÕES</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+              > <i class="bi bi-file-person"></i> MARCADOS</a
+            >
+          </li>
+        </ul>
+
+        <!-- Feed -->
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-4"><img src="images/post1.png" class="card-img-top" alt="Post 1" /></div>
+              <div class="col-4"><img src="images/post4.png" class="card-img-top" alt="Post 4" /></div>
+              <div class="col-4"><img src="images/post3.png" class="card-img-top" alt="Post 3" /></div>
+              <div class="col-4"><img src="images/post2.png" class="card-img-top" alt="Post 2" /></div>
+              <div class="col-4"><img src="images/post5.jpg" class="card-img-top" alt="Post 5" /></div>
+              <div class="col-4"><img src="images/post6.jpg" class="card-img-top" alt="Post 6" /></div>
+              <div class="col-4"><img src="images/post7.png" class="card-img-top" alt="Post 7" /></div>
+              <div class="col-4"><img src="images/post8.png" class="card-img-top" alt="Post 8" /></div>
+              <div class="col-4"><img src="images/post9.png" class="card-img-top" alt="Post 9" /></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel"></div>
+        </div>
+      </div>
+      <div class="col-0 col-md-2"></div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const toggleBtn = document.getElementById("toggle-dark");
+    const body = document.body;
+
+    
+    if (localStorage.getItem("dark-mode") === "enabled") {
+      body.classList.add("dark-mode");
+      toggleBtn.textContent = "☀️";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+      if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("dark-mode", "enabled");
+        toggleBtn.textContent = "☀️";
+      } else {
+        localStorage.setItem("dark-mode", "disabled");
+        toggleBtn.textContent = "🌙";
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
