@@ -28,8 +28,8 @@ O objetivo principal foi colocar em prática os conceitos estudados **de desenvo
 
 - Barra de navegação semelhante ao Instagram.
 - Área de **stories** com imagens circulares.
-- **Feed de postagens** com imagens
-- **Feed de marcações** com imagens
+- **Feed de postagens** com imagens.
+- **Feed de marcações** com imagens.
 - Design adaptável para **desktop** e **dispositivos móveis**.
 
 ---
