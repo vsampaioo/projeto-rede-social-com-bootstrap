@@ -289,3 +289,9 @@ input:checked + .slider:before {
 .nav-icons label.switch {
   cursor: pointer;
 }
+#profile {
+  min-height: 130vh;
+}
+#home {
+  min-height: 130vh;
+}
